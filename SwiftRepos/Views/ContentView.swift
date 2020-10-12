@@ -8,13 +8,10 @@ struct ContentView: View {
   // @State var displayedRepos
   
   var body: some View {
-    return NavigationView {
-      VStack{
-        // TextField (Search Bar)
-        // List
-        Spacer()
-      }.onAppear(perform: self.displayRepos)
-    }
+    
+    Text("Hello World!")
+    // replace the generic text above with a VStack as instructed
+    
   }
   
   func displayRepos() {

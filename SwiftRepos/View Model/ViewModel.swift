@@ -1,6 +1,6 @@
 import Foundation
 
-class ViewModel {
+class ViewModel: ObservableObject {
   
   // instance of parser
   
@@ -10,9 +10,6 @@ class ViewModel {
   // var filteredRepos
   
   // MARK: Methods
-  func update() {
-    
-  }
   
   func search(searchText: String) {
 
