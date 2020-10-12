@@ -110,8 +110,8 @@
 		8542951D2431843D00A269DD /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				8542951E2431844800A269DD /* Repository.swift */,
 				8542952424318AE300A269DD /* Parser.swift */,
+				8542951E2431844800A269DD /* Repository.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
