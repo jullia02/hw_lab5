@@ -1,5 +1,13 @@
 import Foundation
 
+struct Repositories: Codable {
+    let items: [Repository]
+    
+    enum CodingKeys: String, CodingKey {
+        case items
+    }
+}
+
 struct Repository: Codable, Identifiable {
     let id: Int
     let name: String
